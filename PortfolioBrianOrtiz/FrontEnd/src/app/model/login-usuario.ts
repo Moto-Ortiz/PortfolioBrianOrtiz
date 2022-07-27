@@ -1,4 +1,4 @@
-import { timeStamp } from "console";
+
 
 export class LoginUsuario {
     nombreUsuario : string;

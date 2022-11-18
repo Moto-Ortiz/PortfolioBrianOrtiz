@@ -34,9 +34,6 @@ public class ImpPersonaService implements IPersonaService{
         return persona;
     }
 
-    @Override
-    public Persona findPersona(long l) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    
     
 }

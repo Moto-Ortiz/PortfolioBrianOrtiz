@@ -18,8 +18,10 @@ public class Experiencia {
     private int id;
     private String nombreE;
     private String descripcionE;
-    public boolean existByNombreE() {
-        return true;
+    private boolean existByNombreE;
+   public boolean existByNombreE(String nombreE) {
+        this.existByNombreE = true;
+        return existByNombreE;
     }
     
     //Constructor

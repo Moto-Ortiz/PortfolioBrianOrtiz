@@ -18,7 +18,7 @@ public class LoginUsuario {
     
     //Getters and setters
 
-    public String getNombreUsuario() {
+    public String getEmail() {
         return nombreUsuario;
     }
 

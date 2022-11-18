@@ -18,8 +18,13 @@ public class Experiencia {
     private int id;
     private String nombreE;
     private String descripcionE;
+    public boolean existByNombreE() {
+        return true;
+    }
     
     //Constructor
+    
+    
 
     public Experiencia() {
     }

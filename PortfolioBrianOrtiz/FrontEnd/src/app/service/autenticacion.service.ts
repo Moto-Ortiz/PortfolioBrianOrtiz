@@ -7,7 +7,7 @@ import { map } from 'rxjs';
   providedIn: 'root'
 })
 export class AutenticacionService {
-  url="https://brianbackend.herokuapp.com/auth/login";
+  url="back-production-brianortiz.up.railway.app/auth/login";
   currentUserSubjet: BehaviorSubject<any>;
   constructor(private https:HttpClient) {
     console.log("El servicio de autenticación está corriendo");
